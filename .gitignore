@@ -1,0 +1,32 @@
+# Ignore images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+
+# Ignore numpy & binary data
+*.npy
+*.npz
+*.pkl
+
+# Ignore models
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Ignore results / logs
+results/
+output/
+logs/
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore envs
+.env
+venv/
+env/
