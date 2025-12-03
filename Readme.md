@@ -29,7 +29,7 @@ This system detects fraud in Egyptian ID cards by analyzing three key fields:
 ```bash
 # Clone repository
 git clone https://github.com/mohamedhannat/FraudApp
-cd fraud-detection
+cd FraudApp
 ## 📁 Project Structure
 
 
