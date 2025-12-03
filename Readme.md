@@ -9,11 +9,12 @@ This system detects fraud in Egyptian ID cards by analyzing three key fields:
 - **lastName** - Last name field  
 - **photo** - Photo field
 
-### How It Works<>
 ### How It Works
 
-![Fraud Detection Pipeline](pipeline-flowchart.png)
 
+<p align="center">
+  <img src="pipeline-flowchart.png" alt="Fraud Detection Pipeline" width="450"/>
+</p>
 
 ## 🚀 Quick Start
 
