@@ -1,11 +1,17 @@
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 venv/
 .env
 
+# Keep models and data (remove the exclusions)
+# *.pt         # REMOVED - we want to keep .pt files
+# *.pth        # REMOVED - we want to keep .pth files
+
 # Logs
-logs/*.log
+logs/
+*.log
 
 # IDE
 .vscode/
@@ -14,3 +20,11 @@ logs/*.log
 # OS
 .DS_Store
 Thumbs.db
+
+# Results (generated, can be excluded)
+results/*
+!results/.gitkeep
+
+# Cropped (generated, can be excluded)  
+cropped/*
+!cropped/.gitkeep
