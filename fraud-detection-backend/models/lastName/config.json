@@ -1,0 +1,14 @@
+{
+  "class_name": "lastName",
+  "num_samples": 725,
+  "mean_error": 0.0008045896737643613,
+  "std_error": 0.0004101415060856411,
+  "min_error": 0.00027855823282152414,
+  "max_error": 0.0027332555036991835,
+  "threshold_2std": 0.0016248726859356436,
+  "threshold_2_5std": 0.001829943438978464,
+  "threshold_3std": 0.0020350141920212846,
+  "threshold": 0.001829943438978464,
+  "epochs": 300,
+  "latent_dim": 128
+}

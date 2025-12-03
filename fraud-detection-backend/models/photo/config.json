@@ -1,0 +1,14 @@
+{
+  "class_name": "photo",
+  "num_samples": 573,
+  "mean_error": 0.0008968611297207392,
+  "std_error": 0.0003999817522674101,
+  "min_error": 0.0003732566547114402,
+  "max_error": 0.0031607933342456818,
+  "threshold_2std": 0.0016968246342555595,
+  "threshold_2_5std": 0.0018968155103892645,
+  "threshold_3std": 0.0020968063865229696,
+  "threshold": 0.0018968155103892645,
+  "epochs": 300,
+  "latent_dim": 128
+}
