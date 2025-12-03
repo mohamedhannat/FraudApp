@@ -2,11 +2,6 @@
 
 A complete local fraud detection system using deep learning (YOLO + Autoencoder) to detect manipulated ID cards.
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
 ## 📋 Overview
 
 This system detects fraud in Egyptian ID cards by analyzing three key fields:
@@ -14,28 +9,11 @@ This system detects fraud in Egyptian ID cards by analyzing three key fields:
 - **lastName** - Last name field  
 - **photo** - Photo field
 
+### How It Works<>
 ### How It Works
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  1. YOLO Detection                                          │
-│     Detects and crops: firstName, lastName, photo           │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│  2. Autoencoder Analysis                                    │
-│     Trained on VALID samples only                           │
-│     Learns what "normal" fields look like                   │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│  3. Anomaly Detection                                       │
-│     Low reconstruction error  →  AUTHENTIC ✅               │
-│     High reconstruction error →  FRAUD 🚨                   │
-└─────────────────────────────────────────────────────────────┘
-```
+![Fraud Detection Pipeline](pipeline-flowchart.png)
+
 
 ## 🚀 Quick Start
 
@@ -49,7 +27,7 @@ This system detects fraud in Egyptian ID cards by analyzing three key fields:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/fraud-detection.git
+git clone https://github.com/mohamedhannat/FraudApp
 cd fraud-detection
 ## 📁 Project Structure
 
