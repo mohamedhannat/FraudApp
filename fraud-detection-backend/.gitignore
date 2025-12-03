@@ -1,26 +1,11 @@
 # Python
 __pycache__/
 *.py[cod]
-*.egg-info/
 venv/
 .env
 
-# Models (large files)
-*.pt
-*.pth
-models/*/model.pth
-
-# Data
-data/*
-!data/.gitkeep
-cropped/*
-!cropped/.gitkeep
-results/*
-!results/.gitkeep
-
 # Logs
-logs/
-*.log
+logs/*.log
 
 # IDE
 .vscode/

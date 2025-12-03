@@ -1,7 +1,5 @@
-# Dependencies
+# Dependencies - DO NOT PUSH
 node_modules/
-.pnp/
-.pnp.js
 
 # Build
 .next/
@@ -19,8 +17,3 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
-
-# Debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
