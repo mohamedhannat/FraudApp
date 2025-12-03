@@ -1,32 +1,15 @@
-# Ignore images
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.tiff
-*.gif
+# Logs
+*.log
 
-# Ignore numpy & binary data
-*.npy
-*.npz
-*.pkl
+# Cache
+.npm/
+.yarn/
+dist/
+build/
 
-# Ignore models
-*.pt
-*.pth
-*.h5
-*.onnx
+# Environment
+.env
 
-# Ignore results / logs
-results/
-output/
-logs/
-
-# Ignore python cache
+# Python cache (if you have python)
 __pycache__/
 *.pyc
-
-# Ignore envs
-.env
-venv/
-env/
