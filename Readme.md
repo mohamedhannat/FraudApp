@@ -32,27 +32,7 @@ git clone https://github.com/mohamedhannat/FraudApp
 cd fraud-detection
 ## 📁 Project Structure
 
-```
 
-├── fraud-detection-backend/  # Python Backend
-│   ├── requirements.txt
-│   ├── crop_data.py         # Step 1: Crop training data
-│   ├── train.py             # Step 2: Train models
-│   ├── predict.py           # Step 3: Test/predict
-│   ├── server.py            # Step 4: API server
-│   ├── data/                # Put ID card images here
-│   ├── cropped/             # Cropped training data
-│   ├── models/              # Trained models
-│   └── results/             # Prediction results
-│
-└── fraud-detection-frontend/ # Next.js Frontend
-    ├── package.json
-    ├── src/
-    │   ├── app/page.tsx     # Main UI
-    │   ├── services/        # API calls
-    │   └── types/           # TypeScript types
-    └── .env.local           # API endpoint config
-```
 
 ## 🔧 Backend Usage
 
@@ -63,10 +43,6 @@ cd fraud-detection-backend
 pip install -r requirements.txt
 ```
 
-### Step 2: Prepare Data
-
-1. Copy your YOLO model (`detect_objects.pt`) to the backend folder
-2. Add ID card images to the `data/` folder
 
 ### Step 3: Crop Training Data
 
@@ -296,22 +272,5 @@ Output (224x224x3)
 - Increase epochs: `--epochs 500`
 - Lower threshold in config.json
 
-## 📝 License
-
-MIT License - feel free to use for any purpose.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/name`)
-3. Commit changes (`git commit -am 'Add feature'`)
-4. Push to branch (`git push origin feature/name`)
-5. Open a Pull Request
-
-## 📧 Contact
-
-For questions or support, open an issue on GitHub.
-
 ---
 
-Made with ❤️ for secure document verification
